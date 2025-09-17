@@ -1,0 +1,36 @@
+{
+  "name": "horarios-transporte-curionopolis",
+  "version": "1.0.0",
+  "description": "Aplicativo para consulta de horários de transporte em Curionópolis",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "transporte",
+    "curionopolis",
+    "para"
+  ],
+  "author": "Seu Nome Aqui",
+  "license": "MIT",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.11",
+    "expo": "~49.0.15",
+    "expo-status-bar": "~1.6.0",
+    "glob": "^9.3.5",
+    "react": "18.2.0",
+    "react-native": "0.72.10",
+    "react-native-safe-area-context": "4.6.3",
+    "react-native-screens": "~3.22.0",
+    "sudo-prompt": "^9.2.1",
+    "expo-splash-screen": "~0.20.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
